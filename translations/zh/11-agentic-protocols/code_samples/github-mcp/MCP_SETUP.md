@@ -57,14 +57,14 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## 连接验证
 
-当以下情况满足时，您的MCP服务器已正确连接：  
+当以下情况满足时，你的MCP服务器已正确连接：  
 1. 控制台显示“GitHub插件设置成功完成”  
 2. 连接日志显示“✓ MCP连接状态：活跃”  
 3. GitHub命令可在聊天界面中正常工作
 
 ## 环境变量
 
-在您的.env文件中需要包含以下内容：  
+在你的.env文件中需要包含以下内容：  
 ```
 GITHUB_TOKEN=your_github_token
 MCP_SERVER_PORT=3000  # Optional, default is 3000

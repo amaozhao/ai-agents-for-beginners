@@ -11,9 +11,9 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## 📋 学习目标
 
-本笔记本演示如何使用 Microsoft Agent Framework 和 Azure AI Foundry 在 .NET 中构建企业级的检索增强生成 (RAG) 系统。您将学习如何创建生产级代理，能够搜索文档并提供准确、具有上下文的响应，同时具备企业级的安全性和可扩展性。
+本笔记本演示如何使用 Microsoft Agent Framework 和 Azure AI Foundry 在 .NET 中构建企业级的检索增强生成 (RAG) 系统。你将学习如何创建生产级代理，能够搜索文档并提供准确、具有上下文的响应，同时具备企业级的安全性和可扩展性。
 
-**您将构建的企业级 RAG 功能：**
+**你将构建的企业级 RAG 功能：**
 - 📚 **文档智能**：通过 Azure AI 服务进行高级文档处理
 - 🔍 **语义搜索**：具有企业功能的高性能向量搜索
 - 🛡️ **安全集成**：基于角色的访问和数据保护模式
@@ -93,7 +93,7 @@ az account set --subscription "your-subscription-id"
 
 **环境配置：**
 * Azure AI Foundry 配置（通过 Azure CLI 自动处理）
-* 确保您已认证到正确的 Azure 订阅
+* 确保你已认证到正确的 Azure 订阅
 
 ## 📊 企业级 RAG 模式
 

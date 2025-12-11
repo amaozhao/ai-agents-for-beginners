@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 使用 Microsoft Agent Framework Workflow 构建多代理应用程序
 
-本教程将引导您了解并使用 Microsoft Agent Framework 构建多代理应用程序。我们将探讨多代理系统的核心概念，深入研究框架 Workflow 组件的架构，并通过 Python 和 .NET 的实际示例演示不同的工作流模式。
+本教程将引导你了解并使用 Microsoft Agent Framework 构建多代理应用程序。我们将探讨多代理系统的核心概念，深入研究框架 Workflow 组件的架构，并通过 Python 和 .NET 的实际示例演示不同的工作流模式。
 
 ## 1\. 了解多代理系统
 
@@ -375,7 +375,7 @@ var workflow = new WorkflowBuilder(draftExecutor)
 
 ## 结论
 
-Microsoft Agent Framework Workflow 提供了一个强大且灵活的基础，用于编排复杂的多代理系统。通过利用其基于图形的架构和核心组件，开发者可以在 Python 和 .NET 中设计和实现复杂的工作流。无论您的应用程序需要简单的顺序处理、并行执行还是动态条件逻辑，框架都提供了构建强大、可扩展且类型安全的 AI 驱动解决方案的工具。
+Microsoft Agent Framework Workflow 提供了一个强大且灵活的基础，用于编排复杂的多代理系统。通过利用其基于图形的架构和核心组件，开发者可以在 Python 和 .NET 中设计和实现复杂的工作流。无论你的应用程序需要简单的顺序处理、并行执行还是动态条件逻辑，框架都提供了构建强大、可扩展且类型安全的 AI 驱动解决方案的工具。
 
 ---
 

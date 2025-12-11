@@ -24,7 +24,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## 学习目标
 
-完成本课程后，您将能够：
+完成本课程后，你将能够：
 
 - **区分AI代理的不同类型记忆**，包括工作记忆、短期记忆、长期记忆，以及诸如角色记忆和情节记忆等特殊形式。
 - **使用Semantic Kernel框架实现和管理AI代理的短期记忆和长期记忆**，利用工具如Mem0和Whiteboard记忆，并与Azure AI Search集成。
@@ -119,9 +119,9 @@ CO_OP_TRANSLATOR_METADATA:
 
 ### 使用RAG存储记忆
 
-除了像Mem0这样的专用记忆工具，您还可以利用强大的搜索服务，如**Azure AI Search**，作为存储和检索记忆的后端，特别是用于结构化RAG。
+除了像Mem0这样的专用记忆工具，你还可以利用强大的搜索服务，如**Azure AI Search**，作为存储和检索记忆的后端，特别是用于结构化RAG。
 
-这使您能够用自己的数据为代理的响应提供依据，确保更相关和准确的答案。Azure AI Search可以用于存储用户特定的旅行记忆、产品目录或任何其他领域的知识。
+这使你能够用自己的数据为代理的响应提供依据，确保更相关和准确的答案。Azure AI Search可以用于存储用户特定的旅行记忆、产品目录或任何其他领域的知识。
 
 Azure AI Search支持诸如**结构化RAG**的功能，它擅长从大型数据集（如对话历史、电子邮件或图像）中提取和检索密集的结构化信息。与传统的文本分块和嵌入方法相比，这提供了“超人级的精确性和召回率”。
 
@@ -141,7 +141,7 @@ Azure AI Search支持诸如**结构化RAG**的功能，它擅长从大型数据�
 
 ## 关于代理记忆还有疑问？
 
-加入[Azure AI Foundry Discord](https://aka.ms/ai-agents/discord)，与其他学习者交流，参加办公时间并解答您的AI代理相关问题。
+加入[Azure AI Foundry Discord](https://aka.ms/ai-agents/discord)，与其他学习者交流，参加办公时间并解答你的AI代理相关问题。
 
 ---
 

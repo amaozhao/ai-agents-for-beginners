@@ -555,7 +555,7 @@ Semantic Kernel 是一个企业级 AI 编排 SDK。它由 AI 和内存连接器�
     }
     ```
 
-这些事实随后存储在内存集合 `SummarizedAzureDocs` 中。这是一个非常简化的示例，但您可以看到如何将信息存储在内存中供 LLM 使用。
+这些事实随后存储在内存集合 `SummarizedAzureDocs` 中。这是一个非常简化的示例，但你可以看到如何将信息存储在内存中供 LLM 使用。
 
 这就是 Semantic Kernel 框架的基础，那么 Agent Framework 又是什么呢？
 
@@ -693,9 +693,9 @@ Azure AI Agent 服务具有以下核心概念：
     print(f"Messages: {messages}")
     ```
 
-    在之前的代码中，创建了一个线程。随后向线程发送了一条消息。通过调用 `create_and_process_run`，代理被要求在线程上执行工作。最后，消息被获取并记录下来以查看代理的响应。这些消息表明用户与代理之间对话的进展。还需要了解的是，消息可以是不同类型的，例如文本、图像或文件，这意味着代理的工作可能生成了一个图像或文本响应等。作为开发者，您可以使用这些信息进一步处理响应或将其呈现给用户。
+    在之前的代码中，创建了一个线程。随后向线程发送了一条消息。通过调用 `create_and_process_run`，代理被要求在线程上执行工作。最后，消息被获取并记录下来以查看代理的响应。这些消息表明用户与代理之间对话的进展。还需要了解的是，消息可以是不同类型的，例如文本、图像或文件，这意味着代理的工作可能生成了一个图像或文本响应等。作为开发者，你可以使用这些信息进一步处理响应或将其呈现给用户。
 
-- **与其他 AI 框架集成**。Azure AI Agent 服务可以与其他框架（如 AutoGen 和 Semantic Kernel）交互，这意味着您可以在这些框架之一中构建应用的一部分，例如使用 Agent 服务作为编排器，或者完全在 Agent 服务中构建应用。
+- **与其他 AI 框架集成**。Azure AI Agent 服务可以与其他框架（如 AutoGen 和 Semantic Kernel）交互，这意味着你可以在这些框架之一中构建应用的一部分，例如使用 Agent 服务作为编排器，或者完全在 Agent 服务中构建应用。
 
 **使用场景**：Azure AI Agent 服务专为需要安全、可扩展和灵活的 AI 代理部署的企业应用设计。
 
@@ -711,7 +711,7 @@ Azure AI Agent 服务具有以下核心概念：
 
 ### 使用场景
 
-让我们通过一些常见的使用场景来帮助您：
+让我们通过一些常见的使用场景来帮助你：
 
 > 问：我正在实验、学习并构建概念验证代理应用，我希望能够快速构建和实验。
 
@@ -723,11 +723,11 @@ Azure AI Agent 服务具有以下核心概念：
 
 > 问：听起来 Azure AI Agent 服务也可以用于此场景，它有代码生成工具和更多功能？
 
-> 答：是的，Azure AI Agent 服务是一个代理平台服务，内置支持多个模型、Azure AI Search、Bing Search 和 Azure Functions。它使您可以轻松在 Foundry Portal 中构建代理并进行大规模部署。
+> 答：是的，Azure AI Agent 服务是一个代理平台服务，内置支持多个模型、Azure AI Search、Bing Search 和 Azure Functions。它使你可以轻松在 Foundry Portal 中构建代理并进行大规模部署。
 
 > 问：我还是很困惑，能不能直接给我一个选择？
 
-> 答：一个很好的选择是先在 Semantic Kernel 中构建您的应用，然后使用 Azure AI Agent 服务来部署您的代理。这种方法使您能够轻松持久化代理，同时利用 Semantic Kernel 构建多代理系统的能力。此外，Semantic Kernel 在 AutoGen 中有一个连接器，使得同时使用这两个框架变得简单。
+> 答：一个很好的选择是先在 Semantic Kernel 中构建你的应用，然后使用 Azure AI Agent 服务来部署你的代理。这种方法使你能够轻松持久化代理，同时利用 Semantic Kernel 构建多代理系统的能力。此外，Semantic Kernel 在 AutoGen 中有一个连接器，使得同时使用这两个框架变得简单。
 
 让我们用表格总结关键差异：
 
@@ -741,9 +741,9 @@ Azure AI Agent 服务具有以下核心概念：
 
 ## 我可以直接集成现有的 Azure 生态系统工具，还是需要独立解决方案？
 
-答案是可以，您可以直接将现有的 Azure 生态系统工具与 Azure AI Agent 服务集成，尤其是因为它已被设计为与其他 Azure 服务无缝协作。例如，您可以集成 Bing、Azure AI Search 和 Azure Functions。此外，它还与 Azure AI Foundry 深度集成。
+答案是可以，你可以直接将现有的 Azure 生态系统工具与 Azure AI Agent 服务集成，尤其是因为它已被设计为与其他 Azure 服务无缝协作。例如，你可以集成 Bing、Azure AI Search 和 Azure Functions。此外，它还与 Azure AI Foundry 深度集成。
 
-对于 AutoGen 和 Semantic Kernel，您也可以与 Azure 服务集成，但可能需要从代码中调用 Azure 服务。另一种集成方式是使用 Azure SDKs 从代理中与 Azure 服务交互。此外，如前所述，您可以使用 Azure AI Agent 服务作为 AutoGen 或 Semantic Kernel 中构建的代理的编排器，从而轻松访问 Azure 生态系统。
+对于 AutoGen 和 Semantic Kernel，你也可以与 Azure 服务集成，但可能需要从代码中调用 Azure 服务。另一种集成方式是使用 Azure SDKs 从代理中与 Azure 服务交互。此外，如前所述，你可以使用 Azure AI Agent 服务作为 AutoGen 或 Semantic Kernel 中构建的代理的编排器，从而轻松访问 Azure 生态系统。
 
 ## 示例代码
 
@@ -752,7 +752,7 @@ Azure AI Agent 服务具有以下核心概念：
 
 ## 对 AI Agent 框架还有更多问题？
 
-加入 [Azure AI Foundry Discord](https://aka.ms/ai-agents/discord)，与其他学习者交流，参加办公时间并解答您的 AI Agent 问题。
+加入 [Azure AI Foundry Discord](https://aka.ms/ai-agents/discord)，与其他学习者交流，参加办公时间并解答你的 AI Agent 问题。
 
 ## 参考资料
 

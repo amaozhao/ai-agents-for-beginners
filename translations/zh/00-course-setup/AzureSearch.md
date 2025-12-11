@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Azure AI 搜索设置指南
 
-本指南将帮助您通过 Azure 门户设置 Azure AI 搜索服务。请按照以下步骤创建和配置您的 Azure AI 搜索服务。
+本指南将帮助你通过 Azure 门户设置 Azure AI 搜索服务。请按照以下步骤创建和配置你的 Azure AI 搜索服务。
 
 ## 前提条件
 
-在开始之前，请确保您具备以下条件：
+在开始之前，请确保你具备以下条件：
 
-- 一个 Azure 订阅。如果您还没有 Azure 订阅，可以在 [Azure 免费账户](https://azure.microsoft.com/free/?wt.mc_id=studentamb_258691) 创建一个免费账户。
+- 一个 Azure 订阅。如果你还没有 Azure 订阅，可以在 [Azure 免费账户](https://azure.microsoft.com/free/?wt.mc_id=studentamb_258691) 创建一个免费账户。
 
 ## 第一步：创建 Azure 存储账户
 
@@ -29,11 +29,11 @@ CO_OP_TRANSLATOR_METADATA:
 3. 在搜索框中输入 "Azure AI Search"，然后从结果列表中选择 **Azure AI Search**。
 4. 点击 **创建** 按钮。
 5. 在 **基本信息** 选项卡中提供以下信息：
-   - **订阅**：选择您的 Azure 订阅。
+   - **订阅**：选择你的 Azure 订阅。
    - **资源组**：创建一个新的资源组或选择现有的资源组。
-   - **资源名称**：输入您的搜索服务的唯一名称。
-   - **区域**：选择离您的用户最近的区域。
-   - **定价层**：选择适合您需求的定价层。您可以从免费层开始测试。
+   - **资源名称**：输入你的搜索服务的唯一名称。
+   - **区域**：选择离你的用户最近的区域。
+   - **定价层**：选择适合你需求的定价层。你可以从免费层开始测试。
 6. 点击 **查看 + 创建**。
 7. 查看设置后，点击 **创建** 来创建搜索服务。
 
@@ -46,7 +46,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## 第四步：使用 Azure AI 搜索工具
 
-Azure AI 搜索与多种工具集成，以增强您的搜索功能。您可以使用 Azure CLI、Python SDK、.NET SDK 等工具进行高级配置和操作。
+Azure AI 搜索与多种工具集成，以增强你的搜索功能。你可以使用 Azure CLI、Python SDK、.NET SDK 等工具进行高级配置和操作。
 
 ### 使用 Azure CLI
 
@@ -171,7 +171,7 @@ Azure AI 搜索与多种工具集成，以增强您的搜索功能。您可以�
 
 ## 结论
 
-您已成功通过 Azure 门户设置了 Azure AI 搜索服务并集成了相关工具。现在，您可以探索 Azure AI 搜索的更多高级功能和能力，以增强您的搜索解决方案。
+你已成功通过 Azure 门户设置了 Azure AI 搜索服务并集成了相关工具。现在，你可以探索 Azure AI 搜索的更多高级功能和能力，以增强你的搜索解决方案。
 
 如需进一步帮助，请访问 [Azure Cognitive Search 文档](https://learn.microsoft.com/azure/search/?wt.mc_id=studentamb_258691)。
 

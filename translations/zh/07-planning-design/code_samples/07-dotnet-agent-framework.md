@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## 📋 学习目标
 
-本笔记展示了使用 Microsoft Agent Framework 和 GitHub 模型在 .NET 中构建智能代理的企业级规划与设计模式。您将学习如何创建能够分解复杂问题、规划多步骤解决方案并利用 .NET 企业功能执行复杂工作流的代理。
+本笔记展示了使用 Microsoft Agent Framework 和 GitHub 模型在 .NET 中构建智能代理的企业级规划与设计模式。你将学习如何创建能够分解复杂问题、规划多步骤解决方案并利用 .NET 企业功能执行复杂工作流的代理。
 
 ## ⚙️ 前置条件与设置
 
@@ -118,7 +118,7 @@ ChatClientAgentOptions agentOptions = new(name: AGENT_NAME, instructions: AGENT_
 
 ## 预期输出
 
-当您使用旅行规划请求运行代理时，它将分析请求并生成一个结构化计划，包含适当的任务分配给专门的代理，并以符合 TravelPlan schema 的 JSON 格式输出。
+当你使用旅行规划请求运行代理时，它将分析请求并生成一个结构化计划，包含适当的任务分配给专门的代理，并以符合 TravelPlan schema 的 JSON 格式输出。
 
 ---
 

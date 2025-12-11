@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## 📋 学习目标
 
-此示例展示了使用 Microsoft Agent Framework 和 GitHub 模型集成在 .NET 中构建智能代理的企业级设计模式。您将学习专业的设计模式和架构方法，使代理具备生产级别的准备、可维护性和可扩展性。
+此示例展示了使用 Microsoft Agent Framework 和 GitHub 模型集成在 .NET 中构建智能代理的企业级设计模式。你将学习专业的设计模式和架构方法，使代理具备生产级别的准备、可维护性和可扩展性。
 
 ### 企业设计模式
 

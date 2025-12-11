@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## 学习目标
 
-完成本课后，您将能够了解或掌握以下内容：
+完成本课后，你将能够了解或掌握以下内容：
 
 - **理解Agentic RAG：** 了解一种新兴的人工智能范式，其中大型语言模型（LLMs）能够自主规划下一步行动，同时从外部数据源获取信息。
 - **迭代的“制造者-检查者”模式：** 掌握通过对LLM的多次迭代调用，穿插工具或函数调用以及结构化输出的循环，旨在提高正确性并处理不良查询。
@@ -125,11 +125,11 @@ Agentic RAG代表了人工智能系统处理复杂、数据密集型任务的自
 
 ### 对Agentic RAG还有疑问？
 
-加入 [Azure AI Foundry Discord](https://aka.ms/ai-agents/discord)，与其他学习者交流，参加办公时间并解答您的AI Agents相关问题。
+加入 [Azure AI Foundry Discord](https://aka.ms/ai-agents/discord)，与其他学习者交流，参加办公时间并解答你的AI Agents相关问题。
 
 ## 其他资源
 
-- <a href="https://learn.microsoft.com/training/modules/use-own-data-azure-openai" target="_blank">使用Azure OpenAI Service实现检索增强生成（RAG）：了解如何使用您自己的数据与Azure OpenAI Service。这篇Microsoft Learn模块提供了关于实现RAG的全面指南</a>
+- <a href="https://learn.microsoft.com/training/modules/use-own-data-azure-openai" target="_blank">使用Azure OpenAI Service实现检索增强生成（RAG）：了解如何使用你自己的数据与Azure OpenAI Service。这篇Microsoft Learn模块提供了关于实现RAG的全面指南</a>
 - <a href="https://learn.microsoft.com/azure/ai-studio/concepts/evaluation-approach-gen-ai" target="_blank">使用Azure AI Foundry评估生成式AI应用：本文涵盖了在公开数据集上评估和比较模型，包括Agentic AI应用和RAG架构</a>
 - <a href="https://weaviate.io/blog/what-is-agentic-rag" target="_blank">什么是Agentic RAG | Weaviate</a>
 - <a href="https://ragaboutit.com/agentic-rag-a-complete-guide-to-agent-based-retrieval-augmented-generation/" target="_blank">Agentic RAG：基于代理的检索增强生成完整指南 – 来自生成 RAG 的新闻</a>
@@ -137,7 +137,7 @@ Agentic RAG代表了人工智能系统处理复杂、数据密集型任务的自
 - <a href="https://youtu.be/aQ4yQXeB1Ss?si=2HUqBzHoeB5tR04U" target="_blank">为 RAG 添加代理层</a>
 - <a href="https://www.youtube.com/watch?v=zeAyuLc_f3Q&t=244s" target="_blank">知识助手的未来：Jerry Liu</a>
 - <a href="https://www.youtube.com/watch?v=AOSjiXP1jmQ" target="_blank">如何构建 Agentic RAG 系统</a>
-- <a href="https://ignite.microsoft.com/sessions/BRK102?source=sessions" target="_blank">使用 Azure AI Foundry Agent 服务扩展您的 AI 代理</a>
+- <a href="https://ignite.microsoft.com/sessions/BRK102?source=sessions" target="_blank">使用 Azure AI Foundry Agent 服务扩展你的 AI 代理</a>
 
 ### 学术论文
 

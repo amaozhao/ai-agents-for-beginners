@@ -174,7 +174,7 @@ A2A 专注于实现代理之间的通信，并让它们协作完成用户的子�
 
 ### 对 MCP/A2A/NLWeb 有更多问题？
 
-加入 [Azure AI Foundry Discord](https://aka.ms/ai-agents/discord)，与其他学习者交流，参加办公时间并解答您的 AI 代理问题。
+加入 [Azure AI Foundry Discord](https://aka.ms/ai-agents/discord)，与其他学习者交流，参加办公时间并解答你的 AI 代理问题。
 
 ## 资源
 

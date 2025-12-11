@@ -61,17 +61,17 @@ chainlit run app.py -w
 npx -y @modelcontextprotocol/server-github --env GITHUB_PERSONAL_ACCESS_TOKEN=[YOUR PERSONAL ACCESS TOKEN]
 ```
 
-将 "[YOUR PERSONAL ACCESS TOKEN]" 替换为您的实际个人访问令牌。
+将 "[YOUR PERSONAL ACCESS TOKEN]" 替换为你的实际个人访问令牌。
 
-连接成功后，您应该会看到插头图标旁边显示一个 (1)，表示已连接。如果未显示，请尝试使用 `chainlit run app.py -w` 重新启动 Chainlit 服务器。
+连接成功后，你应该会看到插头图标旁边显示一个 (1)，表示已连接。如果未显示，请尝试使用 `chainlit run app.py -w` 重新启动 Chainlit 服务器。
 
 ## 使用演示
 
-要启动推荐黑客松项目的代理工作流，您可以输入类似以下的消息：
+要启动推荐黑客松项目的代理工作流，你可以输入类似以下的消息：
 
 “为 Github 用户 koreyspace 推荐黑客松项目”
 
-Router Agent 会分析您的请求，并确定最适合处理查询的代理组合（GitHub、Hackathon 和 Events）。这些代理将协同工作，基于 Github 仓库分析、项目创意生成以及相关技术活动，提供全面的推荐。
+Router Agent 会分析你的请求，并确定最适合处理查询的代理组合（GitHub、Hackathon 和 Events）。这些代理将协同工作，基于 Github 仓库分析、项目创意生成以及相关技术活动，提供全面的推荐。
 
 ---
 

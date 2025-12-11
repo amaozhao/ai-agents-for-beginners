@@ -26,7 +26,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## 学习目标
 
-完成本课后，您将能够：
+完成本课后，你将能够：
 
 - 定义工具使用设计模式及其目的。
 - 识别适用工具使用设计模式的使用场景。
@@ -62,7 +62,7 @@ AI代理可以利用工具完成复杂任务、检索信息或做出决策。工
 
 ### 函数/工具调用
 
-函数调用是使大型语言模型（LLM）与工具交互的主要方式。您会经常看到“函数”和“工具”交替使用，因为“函数”（可重用代码块）是代理用来完成任务的“工具”。为了调用函数的代码，LLM需要将用户请求与函数描述进行比较。为此，会向LLM发送包含所有可用函数描述的模式。LLM随后选择最适合任务的函数，并返回其名称和参数。选定的函数被调用，其响应被发送回LLM，LLM利用这些信息回应用户请求。
+函数调用是使大型语言模型（LLM）与工具交互的主要方式。你会经常看到“函数”和“工具”交替使用，因为“函数”（可重用代码块）是代理用来完成任务的“工具”。为了调用函数的代码，LLM需要将用户请求与函数描述进行比较。为此，会向LLM发送包含所有可用函数描述的模式。LLM随后选择最适合任务的函数，并返回其名称和参数。选定的函数被调用，其响应被发送回LLM，LLM利用这些信息回应用户请求。
 
 开发者要为代理实现函数调用，需要：
 
@@ -207,13 +207,13 @@ AI代理可以利用工具完成复杂任务、检索信息或做出决策。工
 
 ### Semantic Kernel
 
-<a href="https://learn.microsoft.com/azure/ai-services/agents/overview" target="_blank">Semantic Kernel</a>是一个开源的AI框架，适用于使用大型语言模型（LLM）的.NET、Python和Java开发者。它通过一种称为<a href="https://learn.microsoft.com/semantic-kernel/concepts/ai-services/chat-completion/function-calling/?pivots=programming-language-python#1-serializing-the-functions" target="_blank">序列化</a>的过程，自动向模型描述您的函数及其参数，从而简化了函数调用的过程。它还处理模型与代码之间的往返通信。使用Semantic Kernel这样的代理框架的另一个优势是，它允许您访问预构建的工具，例如<a href="https://github.com/microsoft/semantic-kernel/blob/main/python/samples/getting_started_with_agents/openai_assistant/step4_assistant_tool_file_search.py" target="_blank">文件搜索</a>和<a href="https://github.com/microsoft/semantic-kernel/blob/main/python/samples/getting_started_with_agents/openai_assistant/step3_assistant_tool_code_interpreter.py" target="_blank">代码解释器</a>。
+<a href="https://learn.microsoft.com/azure/ai-services/agents/overview" target="_blank">Semantic Kernel</a>是一个开源的AI框架，适用于使用大型语言模型（LLM）的.NET、Python和Java开发者。它通过一种称为<a href="https://learn.microsoft.com/semantic-kernel/concepts/ai-services/chat-completion/function-calling/?pivots=programming-language-python#1-serializing-the-functions" target="_blank">序列化</a>的过程，自动向模型描述你的函数及其参数，从而简化了函数调用的过程。它还处理模型与代码之间的往返通信。使用Semantic Kernel这样的代理框架的另一个优势是，它允许你访问预构建的工具，例如<a href="https://github.com/microsoft/semantic-kernel/blob/main/python/samples/getting_started_with_agents/openai_assistant/step4_assistant_tool_file_search.py" target="_blank">文件搜索</a>和<a href="https://github.com/microsoft/semantic-kernel/blob/main/python/samples/getting_started_with_agents/openai_assistant/step3_assistant_tool_code_interpreter.py" target="_blank">代码解释器</a>。
 
 下图展示了使用Semantic Kernel进行函数调用的过程：
 
 ![函数调用](../../../translated_images/functioncalling-diagram.a84006fc287f60140cc0a484ff399acd25f69553ea05186981ac4d5155f9c2f6.zh.png)
 
-在Semantic Kernel中，函数/工具被称为<a href="https://learn.microsoft.com/semantic-kernel/concepts/plugins/?pivots=programming-language-python" target="_blank">插件</a>。我们可以将之前看到的`get_current_time`函数转换为一个插件，将其变成一个包含该函数的类。我们还可以导入`kernel_function`装饰器，该装饰器接收函数的描述。当您使用GetCurrentTimePlugin创建一个内核时，内核会自动序列化函数及其参数，在此过程中创建发送给LLM的模式。
+在Semantic Kernel中，函数/工具被称为<a href="https://learn.microsoft.com/semantic-kernel/concepts/plugins/?pivots=programming-language-python" target="_blank">插件</a>。我们可以将之前看到的`get_current_time`函数转换为一个插件，将其变成一个包含该函数的类。我们还可以导入`kernel_function`装饰器，该装饰器接收函数的描述。当你使用GetCurrentTimePlugin创建一个内核时，内核会自动序列化函数及其参数，在此过程中创建发送给LLM的模式。
 
 ```python
 from semantic_kernel.functions import kernel_function
@@ -268,7 +268,7 @@ Azure AI Agent Service中的工具分为两类：
 
 Agent Service允许我们将这些工具组合为一个`工具集`。它还利用`线程`来跟踪特定对话的消息历史。
 
-假设您是Contoso公司的一名销售代理，想要开发一个可以回答关于销售数据问题的对话代理。
+假设你是Contoso公司的一名销售代理，想要开发一个可以回答关于销售数据问题的对话代理。
 
 下图展示了如何使用Azure AI Agent Service分析销售数据：
 
@@ -316,7 +316,7 @@ LLM动态生成SQL时的一个常见担忧是安全性，特别是SQL注入或�
 
 ## 对工具使用设计模式有更多疑问？
 
-加入 [Azure AI Foundry Discord](https://aka.ms/ai-agents/discord)，与其他学习者交流，参加办公时间，并解答您关于 AI Agents 的问题。
+加入 [Azure AI Foundry Discord](https://aka.ms/ai-agents/discord)，与其他学习者交流，参加办公时间，并解答你关于 AI Agents 的问题。
 
 ## 其他资源
 

@@ -21,10 +21,10 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## 学习目标
 
-完成本课程后，您将能够：
+完成本课程后，你将能够：
 
 - 使用 Microsoft Agent Framework 构建生产级 AI 代理
-- 将 Microsoft Agent Framework 的核心功能应用于您的代理用例
+- 将 Microsoft Agent Framework 的核心功能应用于你的代理用例
 - 迁移并集成现有的代理框架和工具  
 
 ## 代码示例
@@ -53,7 +53,7 @@ CO_OP_TRANSLATOR_METADATA:
 Microsoft Agent Framework 还专注于互操作性：
 
 - **云无关性** - 代理可以运行在容器、内部部署以及多个不同的云环境中。
-- **提供商无关性** - 代理可以通过您首选的 SDK 创建，包括 Azure OpenAI 和 OpenAI。
+- **提供商无关性** - 代理可以通过你首选的 SDK 创建，包括 Azure OpenAI 和 OpenAI。
 - **集成开放标准** - 代理可以利用 Agent-to-Agent (A2A) 和 Model Context Protocol (MCP) 等协议来发现和使用其他代理和工具。
 - **插件和连接器** - 可以连接到数据和内存服务，例如 Microsoft Fabric、SharePoint、Pinecone 和 Qdrant。
 
@@ -385,7 +385,7 @@ Microsoft Agent Framework 的代码示例可以在此存储库中找到，位于
 
 ## 有更多关于 Microsoft Agent Framework 的问题？
 
-加入 [Azure AI Foundry Discord](https://aka.ms/ai-agents/discord)，与其他学习者交流，参加办公时间并解答您的 AI 代理相关问题。
+加入 [Azure AI Foundry Discord](https://aka.ms/ai-agents/discord)，与其他学习者交流，参加办公时间并解答你的 AI 代理相关问题。
 
 ---
 

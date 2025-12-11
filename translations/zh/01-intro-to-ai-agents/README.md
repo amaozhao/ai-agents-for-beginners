@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 欢迎来到“AI代理入门”课程！本课程提供构建AI代理的基础知识和应用示例。
 
-加入<a href="https://discord.gg/kzRShWzttr" target="_blank">Azure AI Discord社区</a>，与其他学习者和AI代理开发者交流，并提出您对本课程的任何问题。
+加入<a href="https://discord.gg/kzRShWzttr" target="_blank">Azure AI Discord社区</a>，与其他学习者和AI代理开发者交流，并提出你对本课程的任何问题。
 
 开始本课程之前，我们将首先了解什么是AI代理，以及如何在我们构建的应用程序和工作流程中使用它们。
 
@@ -29,7 +29,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## 学习目标
 
-完成本课后，您应该能够：
+完成本课后，你应该能够：
 
 - 理解AI代理的概念及其与其他AI解决方案的区别。
 - 高效应用AI代理。
@@ -115,7 +115,7 @@ AI代理是**系统**，通过为**大型语言模型（LLMs）**提供**工具*
 
 ## 对AI代理有更多问题？
 
-加入[Azure AI Foundry Discord](https://aka.ms/ai-agents/discord)，与其他学习者交流，参加办公时间并解答您的AI代理问题。
+加入[Azure AI Foundry Discord](https://aka.ms/ai-agents/discord)，与其他学习者交流，参加办公时间并解答你的AI代理问题。
 
 ## 上一课
 

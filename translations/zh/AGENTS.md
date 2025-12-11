@@ -207,7 +207,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ### 提交前
 
-1. **测试您的更改：**
+1. **测试你的更改：**
    - 完整运行受影响的notebooks
    - 确保所有单元格无错误执行
    - 检查输出是否合适
@@ -273,7 +273,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ### 框架选择
 
-根据您的目标选择框架：
+根据你的目标选择框架：
 - **学习/原型开发**：Semantic Kernel + GitHub模型（免费）
 - **多代理系统**：AutoGen
 - **最新功能**：Microsoft Agent Framework (MAF)
